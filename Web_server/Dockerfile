@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 MAINTAINER dnemo
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
